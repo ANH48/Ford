@@ -1,0 +1,21 @@
+.ford__navbar-top {
+    background-color: #f3f3f3;
+    height: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    .eyebrow-left {
+        margin: 0;
+        height: 100%;
+        .eyebrow-item{
+            .ford-mustang{
+                background-image: url(.././);
+            }
+        }
+    }
+}
