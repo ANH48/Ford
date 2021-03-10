@@ -33,186 +33,260 @@
 <body>
   <!-- Bảo  code here  -->
   <!-- HEADER -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ford__navbar-top row">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="eyebrow-left col-10">
-          <div class="navbar-header no-float-md row w-100">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="eyebrow-item nav-link " href="/mustang/?gnav=eyebrow-brand-mustang" aria-label="View all Ford Mustangs">
-                  <span class="eyebrow-icon ford-mustang" aria-hidden="true" role="decorative"></span>
-                  <span class="eyebrow-item-text">MUSTANG</span></a>
-              </li>
-  
-              <li class="nav-item">
-                <a class="eyebrow-item nav-link not-first " href="https://www.ford.com/bronco/?gnav=eyebrow-brand-brnco"
-                  aria-label="View All Ford Broncos">
-                  <span class="eyebrow-icon ford-bronco" aria-hidden="true" role="decorative"></span><span
-                    class="eyebrow-item-text">BRONCO</span></a>
-  
-              </li>
-  
-              <li class="nav-item">
-                <a class="eyebrow-item nav-link not-first " href="/used/?gnav=eyebrow-cpo"
-                  aria-label="View Ford Certified Used Vehicles">
-                  <span class="eyebrow-item-text">CERTIFIED USED</span></a>
-  
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="eyebrow-right col-2">
-          <div class="fgx-lad-item flyout-item-wrap" id="brand-nav-lad-item"
-            data-fgx-fordmainnav-flyout-id="fgx-fordMainNav-flyout-1">
-            <a class="fgx-no-dealer lad-link dealer-gnav-update"
-              href="https://www.ford.com/dealerships/?gnav=header-finddealer" id="brand-nav-lad-notsaved-lnk">
-              <span class="fgx-nav-icon lad-link-icon icon-saved-dealer" aria-hidden="true"><i
-                  class="fa fa-map-marker-alt"></i></span>
-              <span class="lad-link-label text" id="brand-nav-lad-notsaved-lnk-lbl">Dealership
-                Locations</span>
-            </a>
-            <div class="flyout-container flyout-lad hidden" id="brand-nav-lad-saved-cnt">
-              <div class="flyout-menu-item-container">
-                <div class="fgx-saved-dealer-content"></div>
-              </div>
+  <header id="ford_Header">
+    <div class="container-fluid ford_nav_container">
+        <nav class="navbar navbar-expand-lg ford_first_nav fixed-top">
+            <div class="ford_leftHeader">
+                <ul class="navbar-nav ford_header_nav">
+                    <li class="nav-item ford_first_nav_item">
+                        <a class="ford_first_nav_content ford_nav_mustang" href="#">
+                            <img src="./img/tải xuống (4).svg" alt="">
+                            <span class="ford_nav_mustang_text"> MUSTANG </span>
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item ford_first_nav_item">
+                        <a class="ford_first_nav_content ford_nav_bronco" href="#">
+                            <img src="./img/tải xuống (5).svg" alt="">
+                            <span class="ford_nav_bronco_text"> BRONCO </span>
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item ford_first_nav_item">
+                        <a class="ford_first_nav_content ford_nav_used" href="#">
+                            <span class="ford_nav_used_text"> CERTIFIED USED </span>
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-          </div>
-        </div>
+            <a href="#" class="ford_rightHeader">
+                <div class="ford_rightHeader_content ford_rightHeader_image"><img src="./img/tải xuống (1).svg"
+                        alt=""></div>
+                <div class="ford_rightHeader_content ford_rightHeader_text"><span>Dealership Locations</span></div>
+            </a>
+        </nav>
+    </div>
 
-      </div>
+    <!-- NAVBAR -->
+    <div class="container-fluid ford_second_nav_container">
+        <nav class="navbar navbar-expand-lg navbar-light ford_second_nav fixed-top">
+            <a class="navbar-brand ford_logo" href="#"><img src="./img/Ford.png" alt=""></a>
+            <button class="navbar-toggler ford_nav_button" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- 2nd NAV LEFT -->
+            <div class="collapse navbar-collapse ford_navbar_collapse " id="navbarSupportedContent">
+                <div class="ford_second_nav_left">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item active ford_second_nav_item_left">
+                            <a class="nav-link ford_second_nav_content ford_vehicles_content" href="#"><span
+                                    class="ford_vehicles_text"> VEHICLES </span> <span class="ford_arrow_up"><i
+                                        class="fa fa-angle-up"></i></span> <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active ford_second_nav_item_left">
+                            <a class="nav-link ford_second_nav_content" href="#"><span class="ford_text_left"> SUVS
+                                    & CROSSOVERS </span> <span class="ford_arrow_down"><i
+                                        class="fa fa-angle-down"></i></span><span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active ford_second_nav_item_left">
+                            <a class="nav-link ford_second_nav_content" href="#"><span class="ford_text_left">
+                                    TRUCKS & VANS </span> <span class="ford_arrow_down"><i
+                                        class="fa fa-angle-down"></i></span><span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active ford_second_nav_item_left">
+                            <a class="nav-link ford_second_nav_content" href="#"><span class="ford_text_left">
+                                    ELECTRIFIED </span> <span class="ford_arrow_down"><i
+                                        class="fa fa-angle-down"></i></span><span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active ford_second_nav_item_left">
+                            <a class="nav-link ford_second_nav_content" href="#"><span class="ford_text_left"> CARS
+                                </span> <span class="ford_arrow_down"><i class="fa fa-angle-down"></i></span><span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active ford_second_nav_item_left">
+                            <a class="nav-link ford_second_nav_content" href="#"><span class="ford_text_left"> ALL
+                                    VEHICLES </span> <span class="ford_arrow_down"><i
+                                        class="fa fa-angle-down"></i></span><span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 2nd NAV RIGHT -->
+                <div class="ford_second_nav_right ">
+                    <ul class="navbar-nav ford_second_nav_list_right">
+                        <li class="nav-item active ford_second_nav_item_right">
+                              <a class="nav-link ford_second_nav_content_right ford__dropdown-menu" id="ford__dropdown-menu_account" href="#">
+                                <span class="ford_text_right">
+                                <img src="./img/tải xuống.svg"alt="">
+                                <span class="ford_account_text"> MY ACCOUNT </span>
+                                </span>
+                            </a>
+                            <div class="ford__dropdown" id="right_dropdown_account">
+                                <div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">Sign In</span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">My Ford Vehicle </span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">Saved Items </span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown  active ford_second_nav_item_right">
+                            <a class="nav-link ford_second_nav_content_right ford__dropdown-menu" id="ford__dropdown-menu_finance" href="#">
+                                <span class="ford_text_right"> FINANCE </span>
+                            </a>
+                            <div class="ford__dropdown" id="right_dropdown_finance">
+                                <div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">Sign In</span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">Sign In</span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">Sign In</span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">My Ford Vehicle </span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">Saved Items </span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown active ford_second_nav_item_right">
+                            <a class="nav-link ford_second_nav_content_right ford__dropdown-menu" id="ford__dropdown-menu_support" href="#">
+                                <span class="ford_text_right"> SUPPORT </span>
+                            </a>
+                            <div class="ford__dropdown" id="right_dropdown_support">
+                                <div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">Ask Ford</span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">Owners</span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">Vehicle Support & How-Tos</span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">Vehicle Maintenance & Service</span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">Warranty</span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">FordPass</span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">Contact Ford</span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                        <form class="fgx-search-form" name="fgxMainNavSearchForm" method="GET" action="//www.ford.com/search/" novalidate="" role="search">
+                                            <div class="form-group">
+                                                <form class="form-inline">
+                                                    <input class="form-control my-1 mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+                                                  </form>
+                                                <ul class="search-suggestions" style="display: none;"></ul>
+                                            </div>
+                                        </form>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown active ford_second_nav_item_right">
+                            <a class="nav-link ford_second_nav_content_right ford__dropdown-menu" id="ford__dropdown-menu_EN" href="#">
+                                <span class="ford_text_right"> EN </span>
+                            </a>
+                            <div class="ford__dropdown" id="right_dropdown_EN">
+                                <div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">English</span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="ford_link_text">Spanish</span>
+                                            <span class="ford_link_text ford_link_icon"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- BOTTOM COLLAPSE -->
+                <ul class="ford_bottom_list">
+                    <li class="ford_bottom_item ">
+                        <a class="nav-link ford_second_nav_content_right ford_bottom" href="#"> <span
+                                class="ford_bottom_mustang_img"><img src="./img/tải xuống (4).svg" alt=""></span>
+                            <span class="ford_bottom_mustang_text"> MUSTANG </span><span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="ford_bottom_item ">
+                        <a class="nav-link ford_second_nav_content_right ford_bottom" href="#"> <span
+                                class="ford_bottom_bronco_img"><img src="./img/tải xuống (5).svg" alt=""></span>
+                            <span class="ford_bottom_bronco_text"> BRONCO </span><span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="ford_bottom_item ">
+                        <a class="nav-link ford_second_nav_content_right ford_bottom" href="#"> FORD USED <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
 
-    </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-success ford__navbar-bot">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-header no-float-md row w-100">
-          <div class="col-2">
-            <a class="navbar-brand" href="#">Navbar</a>
-          </div>
-          <div class="col-6">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  <span class="link_text">SUVS & CROSSOVERS</span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  <span class="link_text">TRUCKS & VANS</span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  <span class="link_text">ELECTRIFIED</span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  <span class="link_text">CARS</span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  <span class="link_text">ALL VEHICLES</span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-4">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  <span class="link_text">MY ACCOUNT</span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  <span class="link_text">FINANCE</span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  <span class="link_text">SUPPORT</span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  <span class="link_text">EN</span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-            </ul>
-          </div>
+            </div>
+        </nav>
+        
+    </div>
+
+    <div id="myNav" class="overlay">
+        <div class="overlay-content overlay-content-bgcolor">
+          
         </div>
       </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </nav>
-  </header>
+</header>
   <section id="ford__Carousel">
     <div class="ford__carousel"></div>
   </section>
@@ -749,6 +823,80 @@
           view = 0;
         }
       });
+        // menu
+        let menu_down = 0;
+            let temp_1 = 0;
+            let temp_2 = 0;
+            let temp_3 = 0;
+            let temp_4 = 0;
+            // ACCOUNT
+            $("#ford__dropdown-menu_account").click(function () {
+                $("#right_dropdown_finance").hide();
+                $("#right_dropdown_support").hide();
+                $("#right_dropdown_EN").hide();
+                $("#right_dropdown_account").slideToggle("slow");
+                if(temp_2 == 1) temp_2 = 0;
+                if(temp_3 == 1) temp_3 = 0;
+                if(temp_4 == 1) temp_4 = 0;
+                if(temp_1 == 0) temp_1 = 1;
+                else temp_1 = 0;
+                menu_updown_over();
+            });
+            // FINANCE
+            $("#ford__dropdown-menu_finance").click(function () {
+                $("#right_dropdown_account").hide();
+                $("#right_dropdown_support").hide();
+                $("#right_dropdown_EN").hide();
+                $("#right_dropdown_finance").slideToggle("slow");
+                if(temp_1 == 1) temp_1 = 0;
+                if(temp_3 == 1) temp_3 = 0;
+                if(temp_4 == 1) temp_4 = 0;
+                if(temp_2 == 0) temp_2 = 1;
+                else temp_2 = 0;
+                menu_updown_over();
+            });
+            // SUPORRT
+            $("#ford__dropdown-menu_support").click(function () {
+                $("#right_dropdown_account").hide();
+                $("#right_dropdown_finance").hide();
+                $("#right_dropdown_EN").hide();
+                $("#right_dropdown_support").slideToggle("slow");
+                if(temp_1 == 1) temp_1 = 0;
+                if(temp_2 == 1) temp_2 = 0;
+                if(temp_4 == 1) temp_4 = 0;
+                if(temp_3 == 0) temp_3 = 1;
+                else temp_3 = 0;
+                menu_updown_over();
+            });
+            // EN
+            $("#ford__dropdown-menu_EN").click(function () {
+                $("#right_dropdown_account").hide();
+                $("#right_dropdown_finance").hide();
+                $("#right_dropdown_support").hide();
+                $("#right_dropdown_EN").slideToggle("slow");
+                if(temp_1 == 1) temp_1 = 0;
+                if(temp_2 == 1) temp_2 = 0;
+                if(temp_3 == 1) temp_3 = 0;
+                if(temp_4 == 0) temp_4 = 1;
+                else temp_4 = 0;
+                menu_updown_over();
+            });
+
+            
+            function menu_updown_over() {
+                if (menu_down == 0 ) {
+                    document.getElementById("myNav").style.height = "100%";
+                    menu_down = 1;
+                    console.log("temp_1 : "+temp_1 + " temp_2 : " + temp_2);
+                }
+                else {
+                    console.log("temp_1 : "+temp_1 + " temp_2 : " + temp_2);
+                    if(temp_1 == 0 && temp_2 == 0 && temp_3 == 0 && temp_4 == 0) {
+                        document.getElementById("myNav").style.height = "0%";
+                        menu_down = 0;
+                    }
+                }
+            }
     });
   </script>
 
