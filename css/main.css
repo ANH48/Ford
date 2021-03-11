@@ -338,6 +338,206 @@ html, body {
   display: none;
 }
 
+footer {
+  width: 95%;
+  margin: 0 auto;
+}
+
+footer .footer__search .row {
+  width: 95%;
+  margin: 0 auto;
+}
+
+footer .footer__search .footer_formSearch {
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+}
+
+footer .footer__search .footer_formSearch .footer_btn {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  border: none;
+  color: #FFF;
+  font-size: 24px;
+}
+
+footer .footer__search .footer_formSearch .footer_btn:focus {
+  border: none;
+}
+
+footer .footer__search .footer_formSearch .footer__inputSearch {
+  color: #FFF;
+  font-size: 24px;
+  border: none;
+  padding-left: 50px;
+}
+
+footer .footer__search .footer_formSearch .footer__inputSearch:hover {
+  background-color: #343a40;
+}
+
+footer .footer__search .footer__searchListMenu .item {
+  font-size: 1rem;
+}
+
+footer .footer__search .footer__searchListMenu .item span:hover {
+  color: #FFF;
+}
+
+footer .footer__search .footer__searchListMenu .active {
+  color: #FFF;
+}
+
+footer .footer__listMenu {
+  background-color: #242425;
+}
+
+footer .footer__listMenu .row {
+  width: 90%;
+  margin: 0 auto;
+}
+
+footer .footer__listMenu ul > li {
+  list-style: none;
+  padding: 5px 0px;
+}
+
+footer .footer__listMenu h5 {
+  font-size: 20px;
+  color: #FFF;
+  font-weight: 100;
+  display: block;
+  padding: 20px 0px;
+}
+
+footer .footer__listMenu .titile {
+  color: #959595;
+}
+
+footer .footer__listMenu .titile li:hover span {
+  color: #FFF;
+  cursor: pointer;
+}
+
+footer .footer__ADNav {
+  background-color: #122a4d;
+}
+
+footer .footer__ADNav .footer__ADNav__container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+footer .footer__ADNav .footer__ADNav-content {
+  width: 95%;
+}
+
+footer .footer__ADNav .footer__ADNav-content ul > li a span {
+  color: #33a2dd;
+  font-size: 20px;
+}
+
+footer .footer__ADNav .footer__ADNav-content ul > li a span.icon {
+  background-color: #33a2dd;
+  color: #FFF;
+  font-size: 20px;
+  border: 1px solid #FFF;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+footer .footer__ADNav .footer__ADNav-social img {
+  width: 13%;
+}
+
+footer .footer__ADNav .footer__ADNav-social .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer__ADNav .footer__ADNav-social .text a {
+  font-size: 12px;
+  color: #FFF;
+}
+
+footer .footer__contact {
+  background-color: #f7f7f7;
+}
+
+footer .footer__contact .footer__contact__container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+footer .footer__contact .footer__contact__container .language-selector .icon {
+  font-size: 25px;
+  margin-right: 15px;
+}
+
+footer .footer__contact .footer__contact__container .language-selector .text {
+  text-decoration: underline;
+}
+
+footer .footer__contact .footer__contact__container .language-selector a:hover {
+  text-decoration: none;
+  color: #444;
+}
+
+footer .footer__contact .footer__contact__container .copyright {
+  padding-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+footer .footer__contact .footer__contact__container .copyright a {
+  color: #666;
+}
+
+footer .footer__contact .footer__contact__container .copyright a:hover {
+  text-decoration: none;
+}
+
+footer .footer__contact .footer__contact__container .skinny {
+  margin-right: 25px;
+}
+
+footer .footer__contact .footer__contact__container .skinny a {
+  color: #666;
+  font-size: 0.9rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer .footer__contact .footer__contact__container .skinny a:hover {
+  text-decoration: none;
+  color: #444;
+}
+
+footer .footer__contact .footer__contact__container .ford__branch {
+  position: absolute;
+  top: 25%;
+  right: 0;
+}
+
+footer .footer__contact .footer__contact__container .ford__branch img {
+  width: 50%;
+}
+
 #intro__Picture {
   padding-top: 75px;
   width: 98%;

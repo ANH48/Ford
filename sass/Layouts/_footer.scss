@@ -1,0 +1,173 @@
+footer {
+    width: 95%;
+    margin: 0 auto;
+    .footer__search {
+        .row {
+            width: 95%;
+            margin: 0 auto;
+        }
+        .footer_formSearch {
+            width: 95%;
+            margin: 0 auto;
+            position: relative;
+            .footer_btn {
+                position: absolute;
+                top: 0;
+                left: 15px;
+                border: none;
+                color: #FFF;
+                font-size: $fs-3;
+                &:focus {
+                    border: none;
+                }
+            }
+            .footer__inputSearch{
+                color: #FFF;
+                font-size: $fs-3;
+                border: none;
+                padding-left: 50px;
+                &:hover {
+                    background-color: #343a40;
+                }
+            }
+        }
+        .footer__searchListMenu{
+            .item {
+                font-size: 1rem;
+                span:hover {
+                    color: #FFF;
+                }
+            }
+           .active {
+                color: #FFF;
+            }
+        }
+    }
+    .footer__listMenu {
+        .row {
+            width: 90%;
+            margin: 0 auto;
+        }
+        background-color: #242425;
+        ul > li {
+            list-style: none;
+            padding: 5px 0px;
+        }
+        h5 {
+            font-size: $fs-2;
+            color: #FFF;
+            font-weight: 100;
+            display: block;
+            padding: 20px 0px;
+        }
+        .titile {
+            color: #959595;
+            li:hover{
+                span {
+                    color: #FFF;
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+    
+    .footer__ADNav {
+        background-color: #122a4d;
+        .footer__ADNav__container{
+            width: 95%;
+            margin: 0 auto;
+        }
+        .footer__ADNav-content{
+            width: 95%;
+            ul > li {
+                a{
+                    span {
+                        color: #33a2dd;
+                        font-size: $fs-2;
+                    }
+                    span.icon {
+                        background-color: #33a2dd;
+                        color: #FFF;
+                        font-size: $fs-2;
+                        border: 1px solid #FFF;
+                        width: 40px;
+                        height: 40px;
+                        text-align: center;
+                        line-height: 40px;
+                        display: inline-block;
+                        transition: all 1s;
+                        border-radius: 50%;
+                        margin-right: 15px;
+                    }
+                   
+                }
+            }
+        }
+        .footer__ADNav-social {
+            img {
+                width: 13%;
+            }
+            .text {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a {
+                    font-size: $fs-1;
+                    color: #FFF;
+                }
+            }
+        }
+        
+    }
+    .footer__contact {
+        background-color: #f7f7f7;
+        .footer__contact__container {
+            width: 95%;
+            margin: 0 auto;
+            .language-selector {
+                .icon {
+                    font-size: 25px;
+                    margin-right: 15px;
+                }
+                .text {
+                    text-decoration: underline;
+                }
+                a:hover {
+                        text-decoration: none;
+                        color: #444;
+                }
+            }
+            .copyright {
+                padding-bottom: 10px;
+                font-size: 0.9rem;
+                a {
+                    color: #666;
+                    &:hover {
+                        text-decoration: none; 
+                    }
+                }
+            }
+            .skinny {
+                margin-right: 25px;
+                a {
+                    color: #666;
+                    font-size: 0.9rem;
+                    transition: 0.5s;
+                    &:hover {
+                        text-decoration: none; 
+                        color: #444;
+                    }
+                }
+            }
+            .ford__branch {
+                position: absolute;
+                top: 25%;
+                right: 0;
+                img {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
