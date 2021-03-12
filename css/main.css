@@ -33,8 +33,7 @@ html, body {
   top: 0;
   left: 0;
   z-index: 4;
-  background-color: black;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.7);
   overflow-y: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -209,6 +208,24 @@ html, body {
   width: 90px;
 }
 
+.ford_second_nav_container .ford_second_nav .ford_second_nav_right .nav-tabs {
+  border: none;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_right .nav-tabs .nav-item {
+  border: none;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_right .nav-tabs .nav-item .nav-link {
+  border: none;
+  padding: 4px 5px;
+  margin: 0px 5px;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_right .nav-tabs .nav-item .nav-link.active {
+  border-bottom: 2px solid #0276b3;
+}
+
 .ford_second_nav_container .ford_second_nav .ford_second_nav_right .ford_second_nav_list_right {
   position: relative;
 }
@@ -221,7 +238,6 @@ html, body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 10px;
 }
 
 .ford_second_nav_container .ford_second_nav .ford_second_nav_right .ford_second_nav_item_right .ford_second_nav_content_right {
@@ -244,7 +260,7 @@ html, body {
 }
 
 .ford_second_nav_container .ford_second_nav .ford_second_nav_right .ford_second_nav_item_right .ford__dropdown .dropdown-item {
-  border-bottom: 1px solid #a1a7b3;
+  border-bottom: 1px solid #dddddd;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -262,6 +278,12 @@ html, body {
   float: right;
   width: 100%;
   padding: 10px 0px;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_right .ford_second_nav_item_right .ford__dropdown .ford__shadow_top {
+  border-top: 1px solid #dddddd;
+  -webkit-box-shadow: 0px 3px 5px  #d8d8d8 inset;
+          box-shadow: 0px 3px 5px  #d8d8d8 inset;
 }
 
 .ford_second_nav_container .ford_second_nav .ford_second_nav_right .ford_second_nav_item_right .ford__dropdown .dropdown-item:hover {
@@ -963,6 +985,10 @@ footer .footer__contact .footer__contact__container .ford__branch img {
   #ford_Header .ford_second_nav_container .ford_second_nav {
     margin-top: 0;
   }
+  #ford__Carousel .carousel-inner img {
+    width: 100%;
+    height: 414px;
+  }
   #intro__Video {
     padding: 25px 0px;
   }
@@ -1194,6 +1220,26 @@ footer .footer__contact .footer__contact__container .ford__branch img {
   }
   #california_Residents .alert-banner-cta-container a {
     font-size: 16px;
+  }
+  footer {
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer .footer__search .row {
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer .footer__search .footer_formSearch {
+    display: none;
+  }
+  footer .footer__search .footer__searchListMenu {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  footer .footer__search .footer__searchListMenu .item {
+    margin: 0px 10px;
   }
 }
 
@@ -1437,7 +1483,7 @@ footer .footer__contact .footer__contact__container .ford__branch img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
   #ford_Header .ford_first_nav {
     display: block;
     display: -webkit-box;
@@ -1456,6 +1502,23 @@ footer .footer__contact .footer__contact__container .ford__branch img {
   }
   #ford_Header .ford_second_nav_container .ford_second_nav {
     margin-top: 2.5rem;
+  }
+  #ford_Header .ford_second_nav_container .ford_navbar_collapse ul > li > a {
+    font-size: 13px;
+    color: #333;
+  }
+  #ford_Header .ford_second_nav_container .ford_navbar_collapse .ford_account_text {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #ford_Header .ford_second_nav_container .ford_navbar_collapse ul > li > a {
+    font-size: 14px;
+    color: #0276b3;
+  }
+  #ford_Header .ford_second_nav_container .ford_navbar_collapse .ford_account_text {
+    display: inline-block;
   }
   #intro__Video {
     padding: 75px 0px;
