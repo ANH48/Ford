@@ -5,6 +5,17 @@
 
 // iphone 8plus
 @include responsive("small"){
+    // NAV 
+    #ford_Header {
+        .ford_first_nav {
+            display: none;
+        }
+       .ford_second_nav_container {
+            .ford_second_nav{
+                margin-top: 0;
+            }
+       }
+    }
     // INTRO VIDEO
     #intro__Video{
           padding: 25px 0px;
@@ -243,6 +254,7 @@
   }
   // IPAD
 @include responsive("medium"){
+    //NAV
     // INTRO VIDEO
     #intro__Video{
         padding: 75px 0px;
@@ -466,7 +478,23 @@
 }
 // Desktop 
 @include responsive("extra-large"){
-   
+    #ford_Header {
+        .ford_first_nav {
+            display: block;
+            display: flex;
+            .ford_rightHeader {
+                display: block;
+                display: flex;
+                align-items: center;
+                margin-left: auto;
+            }
+        }
+       .ford_second_nav_container {
+            .ford_second_nav{
+                margin-top: 2.5rem;
+            }
+       }
+    }
    // INTRO VIDEO
    #intro__Video{
     padding: 75px 0px;

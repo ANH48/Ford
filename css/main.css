@@ -957,6 +957,12 @@ footer .footer__contact .footer__contact__container .ford__branch img {
 }
 
 @media screen and (min-width: 320px) {
+  #ford_Header .ford_first_nav {
+    display: none;
+  }
+  #ford_Header .ford_second_nav_container .ford_second_nav {
+    margin-top: 0;
+  }
   #intro__Video {
     padding: 25px 0px;
   }
@@ -1432,6 +1438,25 @@ footer .footer__contact .footer__contact__container .ford__branch img {
 }
 
 @media screen and (min-width: 1200px) {
+  #ford_Header .ford_first_nav {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #ford_Header .ford_first_nav .ford_rightHeader {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: auto;
+  }
+  #ford_Header .ford_second_nav_container .ford_second_nav {
+    margin-top: 2.5rem;
+  }
   #intro__Video {
     padding: 75px 0px;
   }
