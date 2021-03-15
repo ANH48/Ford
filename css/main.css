@@ -27,7 +27,7 @@ html, body {
 }
 
 #ford_Header .overlay {
-  height: 0%;
+  height: 100%;
   width: 100%;
   position: fixed;
   top: 0;
@@ -37,6 +37,7 @@ html, body {
   overflow-y: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  display: none;
 }
 
 #ford_Header .overlay .overlay-content {
@@ -63,7 +64,8 @@ html, body {
 
 .ford_first_nav {
   padding: 0 45px;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   height: 40px;
   background-color: #f2f3f5;
 }
@@ -142,6 +144,11 @@ html, body {
   color: #102b4e;
 }
 
+.ford_first_nav .ford_leftHeader .ford_header_nav .ford_first_nav_content img {
+  width: 50px;
+  height: 30px;
+}
+
 .ford_first_nav .ford_rightHeader {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -179,6 +186,176 @@ html, body {
   height: 80px;
   -webkit-box-shadow: 0 8px 4px -4px #0003;
           box-shadow: 0 8px 4px -4px #0003;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .active {
+  border-bottom: 2px solid #0276b3;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left ul > li {
+  list-style: none;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .column-wrap-container {
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu {
+  display: none;
+  -webkit-box-shadow: 0px 3px 5px  #d8d8d8 inset;
+          box-shadow: 0px 3px 5px  #d8d8d8 inset;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #FFF;
+  width: 100%;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu ul > li {
+  display: inline-block;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu ul > li .column-vehicle-top {
+  display: inline-block;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu ul > li .column-vehicle-top a {
+  display: inline-block;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu ul > li img {
+  width: 175px;
+  height: 76px;
+  display: block;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu .column-vehicle-item {
+  white-space: normal;
+  vertical-align: top;
+  max-width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu .column-vehicle-item .badges-container {
+  min-height: 20px;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu .column-vehicle-item .badges-container .badges-label {
+  font-size: 13px;
+  color: #777;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu .column-vehicle-item .column-vehicle-middle {
+  color: #102b4e;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu .column-vehicle-item .column-vehicle-info .column-vehicle-info-price {
+  font-size: 12px;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu .column-vehicle-item .column-vehicle-info .cta-wrap .btn-link-alt {
+  position: relative;
+  max-width: 270px;
+  background-color: transparent;
+  border: 0;
+  color: #0276b3;
+  display: inline-block;
+  white-space: normal;
+  font-family: 'fordngbs-antenna-light',arial,helvetica,sans-serif;
+  font-size: 13px;
+  text-align: left;
+  text-decoration: none;
+  padding: 2px 0;
+  line-height: 1.25;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu .column-vehicle-item .column-vehicle-info .cta-wrap .btn-link-alt::before {
+  background: 0;
+  border: 0;
+  border-bottom: 1px solid rgba(2, 118, 179, 0.5);
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  -webkit-transition: border-color .4s;
+  transition: border-color .4s;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu .column-vehicle-item .column-vehicle-info .cta-wrap .btn-link-alt:hover::before {
+  border-color: #0277b5;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu .segment-menu-item-ftr {
+  background-color: #f7f7f7;
+  margin-left: -70px;
+  margin-right: -70px;
+  padding-left: calc(92px);
+  padding-right: calc(92px);
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu .segment-menu-item-ftr .cta-container {
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: left;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu .segment-menu-item-ftr .cta-container .cta-wrap {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu .segment-menu-item-ftr .cta-container .cta-wrap:hover .btn-primary {
+  background-color: #fff;
+  border: 1px solid #333;
+  color: #333;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu .segment-menu-item-ftr .cta-container .cta-wrap:first-of-type {
+  padding-left: 3px;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu .segment-menu-item-ftr .cta-container .cta-wrap > a {
+  margin-top: 0;
+  outline-offset: 2px;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu .segment-menu-item-ftr .cta-container .brand-btnv2.btn-primary {
+  min-height: 30px;
+  width: auto;
+  min-width: 186px;
+  font-size: 12px;
+  line-height: 1.25;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_item_left .ford__megamenu .segment-menu-item-ftr .cta-container .btn-primary {
+  background-color: #0276b3;
+  border: 1px solid #0276b3;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_vehicles {
@@ -194,6 +371,10 @@ html, body {
 
 .ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_content:hover {
   color: #333333;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_content .ford_text_left {
+  padding-left: 5px;
 }
 
 .ford_second_nav_container .ford_second_nav .ford_logo {
@@ -222,7 +403,7 @@ html, body {
   margin: 0px 5px;
 }
 
-.ford_second_nav_container .ford_second_nav .ford_second_nav_right .nav-tabs .nav-item .nav-link.active {
+.ford_second_nav_container .ford_second_nav .ford_second_nav_right .nav-tabs .nav-item .active {
   border-bottom: 2px solid #0276b3;
 }
 
@@ -984,6 +1165,7 @@ footer .footer__contact .footer__contact__container .ford__branch img {
   }
   #ford_Header .ford_second_nav_container .ford_second_nav {
     margin-top: 0;
+    width: 100%;
   }
   #ford__Carousel .carousel-inner img {
     width: 100%;
@@ -1241,9 +1423,95 @@ footer .footer__contact .footer__contact__container .ford__branch img {
   footer .footer__search .footer__searchListMenu .item {
     margin: 0px 10px;
   }
+  footer .footer__listMenu .footer__listMenu__listVehicle-line-bottom {
+    border-bottom: 1px solid #626466;
+  }
+  footer .footer__listMenu .footer__listMenu-line {
+    border-top: 1px solid #626466;
+    border-bottom: 1px solid #626466;
+  }
+  footer .footer__listMenu .row {
+    width: 100%;
+  }
+  footer .footer__listMenu h5 {
+    margin: 0;
+    font-weight: 100;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .footer__listMenu h5 .text {
+    width: 90%;
+  }
+  footer .footer__listMenu h5 .icon-down {
+    width: 10%;
+  }
+  footer .footer__listMenu .titile {
+    margin-left: 20px;
+  }
+  footer .footer__listMenu .footer__listMenu__listShopping .titile {
+    display: none;
+  }
+  footer .footer__listMenu .footer__listMenu__listFinance .titile {
+    display: none;
+  }
+  footer .footer__listMenu .footer__listMenu__listOwner .titile {
+    display: none;
+  }
+  footer .footer__listMenu .footer__listMenu__listEXP .titile {
+    display: none;
+  }
+  footer .footer__ADNav .comment-card {
+    display: none;
+  }
+  footer .footer__ADNav .footer__ADNav-content .navbar-nav .nav-item {
+    border-bottom: 1px solid #626466;
+  }
+  footer .footer__ADNav .footer__ADNav-content ul > li a span {
+    font-size: 16px;
+  }
+  footer .footer__ADNav .footer__ADNav-content ul > li a span.icon {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  footer .footer__ADNav .footer__ADNav-social {
+    margin-left: -30px;
+  }
+  footer .footer__ADNav .footer__ADNav-social .row {
+    margin: 0;
+  }
+  footer .footer__ADNav .footer__ADNav-social .text {
+    margin-left: -20px;
+    text-align: left;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  footer .footer__ADNav .footer__ADNav-social .text a {
+    font-size: 13px;
+    font-weight: 100;
+  }
+  footer .footer__contact .footer__contact__container .ford__branch {
+    position: absolute;
+    top: 90%;
+    right: 80%;
+    width: 15%;
+  }
+  footer .footer__contact .footer__contact__container .ford__branch img {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  #ford__Carousel {
+    margin-top: 15%;
+  }
+  #ford__Carousel .carousel-inner img {
+    width: 100%;
+    height: 614px;
+  }
   #intro__Video {
     padding: 75px 0px;
   }
@@ -1481,10 +1749,111 @@ footer .footer__contact .footer__contact__container .ford__branch img {
     padding: 10px 20px;
     font-size: 18px;
   }
+  footer {
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer .footer__search {
+    background-color: #333;
+  }
+  footer .footer__search .row {
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer .footer__search .footer_formSearch {
+    display: block;
+  }
+  footer .footer__search .footer_formSearch .footer__inputSearch {
+    background-color: #333;
+  }
+  footer .footer__search .footer__searchListMenu {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  footer .footer__search .footer__searchListMenu .item {
+    margin: 0px 0px;
+  }
+  footer .footer__listMenu .row {
+    width: 95%;
+    margin: 0 auto;
+  }
+  footer .footer__listMenu .footer__listMenu__listVehicle-line-bottom {
+    border: none;
+  }
+  footer .footer__listMenu .footer__listMenu-line {
+    border: none;
+  }
+  footer .footer__listMenu h5 .text {
+    width: 100%;
+  }
+  footer .footer__listMenu h5 .icon-down {
+    width: 10%;
+    display: none;
+  }
+  footer .footer__listMenu .titile {
+    margin-left: 0px;
+  }
+  footer .footer__listMenu .footer__listMenu__listShopping .titile {
+    display: block;
+  }
+  footer .footer__listMenu .footer__listMenu__listFinance .titile {
+    display: block;
+  }
+  footer .footer__listMenu .footer__listMenu__listOwner .titile {
+    display: block;
+  }
+  footer .footer__listMenu .footer__listMenu__listEXP .titile {
+    display: block;
+  }
+  footer .footer__ADNav .comment-card {
+    display: block;
+  }
+  footer .footer__ADNav .footer__ADNav-content {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    width: 100%;
+  }
+  footer .footer__ADNav .footer__ADNav-content .navbar-nav .nav-item {
+    border: none;
+  }
+  footer .footer__ADNav .footer__ADNav-content ul {
+    margin-top: 5%;
+  }
+  footer .footer__ADNav .footer__ADNav-content ul > li a span {
+    font-size: 20px;
+  }
+  footer .footer__ADNav .footer__ADNav-content ul > li a span.icon {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    line-height: 35px;
+  }
+  footer .footer__ADNav .footer__ADNav-social .row {
+    margin: 0;
+  }
+  footer .footer__ADNav .footer__ADNav-social .text a {
+    font-size: 18px;
+    font-weight: 100;
+  }
+  footer .footer__ADNav .footer__ADNav-social img {
+    width: 20%;
+  }
+  footer .footer__contact .footer__contact__container .ford__branch {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width: 10%;
+  }
+  footer .footer__contact .footer__contact__container .ford__branch img {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 992px) {
   #ford_Header .ford_first_nav {
+    width: 100%;
     display: block;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1501,6 +1870,9 @@ footer .footer__contact .footer__contact__container .ford__branch img {
     margin-left: auto;
   }
   #ford_Header .ford_second_nav_container .ford_second_nav {
+    width: 100%;
+  }
+  #ford_Header .ford_second_nav_container .ford_second_nav {
     margin-top: 2.5rem;
   }
   #ford_Header .ford_second_nav_container .ford_navbar_collapse ul > li > a {
@@ -1513,6 +1885,23 @@ footer .footer__contact .footer__contact__container .ford__branch img {
 }
 
 @media screen and (min-width: 1200px) {
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #ford__Carousel {
+    margin-top: 10%;
+  }
+  #ford__Carousel .carousel-inner img {
+    width: 100%;
+    height: 614px;
+  }
+  #ford_Header .ford_first_nav {
+    width: 90%;
+  }
+  #ford_Header .ford_second_nav_container .ford_second_nav {
+    width: 90%;
+  }
   #ford_Header .ford_second_nav_container .ford_navbar_collapse ul > li > a {
     font-size: 14px;
     color: #0276b3;
@@ -1524,7 +1913,7 @@ footer .footer__contact .footer__contact__container .ford__branch img {
     padding: 75px 0px;
   }
   #intro__Video .ford__introVideo {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
   #intro__Video .ford__introVideo .ford__content {
@@ -1558,7 +1947,7 @@ footer .footer__contact .footer__contact__container .ford__branch img {
   }
   #intro__Picture {
     padding-top: 0px;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
   }
   #intro__Picture .ford__let img {
@@ -1756,19 +2145,19 @@ footer .footer__contact .footer__contact__container .ford__branch img {
     display: none;
   }
   #Airbag {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
   }
   #Airbag .expanded-header {
     padding: 30px 0px 70px 0px;
   }
   #Disclosures {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     padding: 25px 0px;
   }
   #california_Residents {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
   }
   #california_Residents .alert-banner {
@@ -1789,6 +2178,110 @@ footer .footer__contact .footer__contact__container .ford__branch img {
     border: 1px solid #0276b3;
     padding: 10px 20px;
     font-size: 20px;
+  }
+  footer {
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer .footer__search {
+    background-color: #333;
+  }
+  footer .footer__search .row {
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer .footer__search .footer_formSearch {
+    display: block;
+  }
+  footer .footer__search .footer_formSearch .footer__inputSearch {
+    background-color: #333;
+  }
+  footer .footer__search .footer__searchListMenu {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  footer .footer__search .footer__searchListMenu .item {
+    margin: 0px 0px;
+  }
+  footer .footer__listMenu .row {
+    width: 95%;
+    margin: 0 auto;
+  }
+  footer .footer__listMenu .footer__listMenu__listVehicle-line-bottom {
+    border: none;
+  }
+  footer .footer__listMenu .footer__listMenu-line {
+    border: none;
+  }
+  footer .footer__listMenu h5 .text {
+    width: 100%;
+  }
+  footer .footer__listMenu h5 .icon-down {
+    width: 10%;
+    display: none;
+  }
+  footer .footer__listMenu .titile {
+    margin-left: 0px;
+  }
+  footer .footer__listMenu .footer__listMenu__listShopping .titile {
+    display: block;
+  }
+  footer .footer__listMenu .footer__listMenu__listFinance .titile {
+    display: block;
+  }
+  footer .footer__listMenu .footer__listMenu__listOwner .titile {
+    display: block;
+  }
+  footer .footer__listMenu .footer__listMenu__listEXP .titile {
+    display: block;
+  }
+  footer .footer__ADNav .comment-card {
+    display: block;
+  }
+  footer .footer__ADNav .footer__ADNav-content {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    width: 95%;
+    margin: 0 auto;
+  }
+  footer .footer__ADNav .footer__ADNav-content .navbar-nav .nav-item {
+    border: none;
+  }
+  footer .footer__ADNav .footer__ADNav-content ul {
+    margin-top: 0%;
+  }
+  footer .footer__ADNav .footer__ADNav-content ul > li a span {
+    font-size: 18px;
+  }
+  footer .footer__ADNav .footer__ADNav-content ul > li a span.icon {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  footer .footer__ADNav .footer__ADNav-social .row {
+    margin: 0;
+  }
+  footer .footer__ADNav .footer__ADNav-social .text a {
+    font-size: 13px;
+    font-weight: 100;
+  }
+  footer .footer__ADNav .footer__ADNav-social img {
+    width: 15%;
+  }
+  footer .footer__contact .footer__contact__container {
+    padding-left: 2%;
+  }
+  footer .footer__contact .footer__contact__container .ford__branch {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width: 10%;
+  }
+  footer .footer__contact .footer__contact__container .ford__branch img {
+    width: 60%;
   }
 }
 /*# sourceMappingURL=main.css.map */
